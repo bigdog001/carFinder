@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:layout_marginTop="12dp"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+      
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/time_picker_year"
+            android:textColor="#000000"
+            android:textSize="20dip"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/time_picker_month"
+            android:textColor="#000000"
+            android:textSize="20dip"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/time_picker_day"
+            android:textColor="#000000"
+            android:textSize="20dip"/> 
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/time_picker_houre"
+            android:textColor="#000000"
+            android:textSize="20dip"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/time_picker_min"
+            android:textColor="#000000"
+            android:textSize="20dip"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/time_picker_sec"
+            android:textColor="#000000"
+            android:textSize="20dip"/>                 
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+      
+        <com.cartracker.mobile.android.ui.widget.timepicker.WheelView android:id="@+id/yearwheel"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>
+        <com.cartracker.mobile.android.ui.widget.timepicker.WheelView android:id="@+id/monthwheel"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>
+        <com.cartracker.mobile.android.ui.widget.timepicker.WheelView android:id="@+id/daywheel"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>
+        <com.cartracker.mobile.android.ui.widget.timepicker.WheelView android:id="@+id/hourwheel"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/> 
+        <com.cartracker.mobile.android.ui.widget.timepicker.WheelView android:id="@+id/minutewheel"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/> 
+        <com.cartracker.mobile.android.ui.widget.timepicker.WheelView android:id="@+id/secondwheel"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"/>              
+    </LinearLayout>
+</LinearLayout>

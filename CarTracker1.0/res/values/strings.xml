@@ -1,0 +1,223 @@
+<resources>
+
+    <!--public env var-->
+    <string name="fromid">CarTracker_023n8</string>
+    <string name="appid">CarTracker_cks891</string>
+    <!--public env var-->
+
+
+    <string name="app_name">走着瞧</string>
+    <string name="dialog_tips_title">提示</string>
+    <string name="desktop_title_default">全景行车记录仪</string>
+    <string name="desktop_menu_exit">exit</string>
+    <string name="title_activity_main">CarTracker</string>
+    <string name="menu_video_preview_save_now">立即保存</string>
+    <string name="menu_preview_turnoff_preview">关闭显示(只刻录)</string>
+    <string name="menu_preview_setting_preview">显示设置</string>
+    <string name="menu_preview_setting_title">选择视频通道</string>
+    <string name="menu_preview_setting_channel_0">单屏第一路信号</string>
+    <string name="menu_preview_setting_channel_1">单屏第二路信号</string>
+    <string name="menu_preview_setting_channel_2">单屏第三路信号</string>
+    <string name="menu_preview_setting_channel_3">单屏第四路信号</string>
+    <string name="menu_preview_setting_channel_4">多屏四路信号</string>
+    <string name="desktop_menu_left">功能</string>
+    <string name="desktop_menu_middle">设置</string>
+    <string name="desktop_menu_right">数据</string>
+
+    <string name="desktop_title_features">全景行车记录仪</string>
+    <string name="desktop_title_settings">我的设置</string>
+    <string name="desktop_title_data">我的数据</string>
+
+
+    <string name="desktop_toast_recordstop_msg">录像监控已经停止</string>
+    <string name="desktop_camera_stop_toast_msg">镜头已经停止工作</string>
+    <string name="desktop_toast_recordstop_lowbattery_msg">电池电量过低,录像监控已经停止</string>
+    <string name="desktop_toast_switch_msg">录像监控文件已经切换</string>
+    <string name="system_sdcard_status_ok">SD卡正常</string>
+    <string name="system_sdcard_status_nosdcard">无SD卡</string>
+    <string name="system_sdcard_current_size_infor_title">SD卡剩余空间过低</string>
+    <string name="system_sdcard_current_size_infor_lower">SD卡剩余空间过低,系统推荐最低8GB,当前:</string>
+    <string name="system_sdcard_clean_remind_msg">请清理SD卡空间</string>
+    <string name="system_sdcard_clean_automatic_clean_msg">正在清理SD卡空间</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+
+    <string name="desktop_record">录制</string>
+    <string name="desktop_preview">预览</string>
+    <string name="desktop_stop">停止</string>
+    <string name="desktop_switch_file">切换文件</string>
+    <string name="setup_camera_string">检测镜头</string>
+    <string name="desktop_listen_parameter">监听</string>
+    <string name="desktop_camera_check">检测镜头</string>
+    <string name="desktop_exit">exit</string>
+    <string name="desktop_review">回放</string>
+    <string name="title_video_review">监控视频回放</string>
+    <string name="title_bar_back_btn">返回</string>
+
+
+    <string name="review_video_pick_time">选择时间</string>
+    <string name="review_pick_camera_bt">选择镜头:</string>
+
+
+    <!--time_picker.xml-->
+    <string name="time_picker_year">年</string>
+    <string name="time_picker_month">月</string>
+    <string name="time_picker_day">日</string>
+    <string name="time_picker_houre">时</string>
+    <string name="time_picker_min">分</string>
+    <string name="time_picker_sec">秒</string>
+    <!--time_picker.xml-->
+
+    <!--ReViewActivity-->
+    <string name="reviewactivity_no_file_tips_1">此目录无录像</string>
+    <string name="reviewactivity_no_file_tips_2">此目录录像文件为空或者尚未生成</string>
+    <string name="reviewactivity_no_file_tips_3">录像文件目录异常</string>
+    <string name="reviewactivity_time_select">时间</string>
+    <string name="reviewactivity_camera_select">点,镜头:</string>
+    <string name="reviewactivity_file_total_count">,文件总数:</string>
+    <string name="reviewactivity_file_clean_toast_tips_text">请选择需要清理的录像日期!</string>
+    <!--ReViewActivity-->
+
+    <!--FileReviewListViewAdapter-->
+    <string name="reviewactivity_file_delete">文件已经被删除</string>
+    <!--FileReviewListViewAdapter-->
+
+    <!--SettingsFragment-->
+    <string name="desktop_setings_video_rewrite">视频自动覆盖</string>
+    <string name="desktop_setings_sound_alert">开启告警音</string>
+    <string name="desktop_setings_emergency_help">紧急援助</string>
+    <string name="desktop_setings_emergency_status_tip_off">已关闭</string>
+    <string name="desktop_setings_emergency_status_tip_on">已开启</string>
+    <string name="setting_remote_start_text">远程控制</string>
+    <string name="setting_video_quality_text">录像画面质量</string>
+    <string name="setting_remote_about_us_text">关于我们</string>
+    <string name="desktop_setings_video_rewrite_dialog_title">提示</string>
+    <string name="desktop_setings_video_rewrite_dialog_msg">当sd卡空间不足时自动删除旧的录像,否则只能手工删除</string>
+    <string name="desktop_setings_video_rewrite_dialog_msg_delete">您确定删除此录像文件?</string>
+    <!--SettingsFragment-->
+
+    <!--FeaturesFragment-->
+    <string name="desktop_feature_exit_title">退出程序</string>
+    <string name="desktop_feature_exit_msg">您确定退出程序?</string>
+    <!--FeaturesFragment-->
+
+    <!--Desktop-->
+    <!--root工具下载链接-->
+    <string name="desktop_sdk_too_low_msg_1">系统版本太低,当前:</string>
+    <string name="desktop_sdk_too_low_msg_2">,最低要求:Android3.1</string>
+    <string name="desktop_root_remind_tips">权限提示</string>
+    <string name="desktop_root_remind_msg">您的手机尚未root,请下载root工具帮助您!</string>
+    <string name="desktop_root_remind_dowload_conform_btn">下载</string>
+    <string name="desktop_root_remind_dowload_cancel_btn">不下载</string>
+                                          <!---->
+    <string name="root_software_download_url">http://shouji.baidu.com/s?wd=android%20root%B9%A4%BE%DF%26data_type=app</string>
+    <!--root工具下载链接-->
+    <!--Desktop-->
+
+
+    <!--RootGuideActivity-->
+    <string name="title_root_guide">root您的设备</string>
+    <string name="title_root_camera">设置您的相机镜头</string>
+    <string name="device_root_btn_text">点击获取root工具</string>
+    <string name="device_root_tv_tips_text">.       重要提示:当您使用root工具成功将设备root后,请重新回到全景行车记录仪,系统将会自动带您进入镜头设置界面!</string>
+    <!--RootGuideActivity-->
+
+    <!--CameraSettingGuideActivity-->
+    <string name="device_camera_cable_connect_guide_picture">相机接线图</string>
+    <string name="device_camera_setting_btn_text">点击开始检测镜头</string>
+    <string name="desktop_camera_setting_remind_tips">镜头检测提示</string>
+    <string name="desktop_camera_setting_remind_msg">您确定连接了usb UVC 相机了吗?</string>
+    <string name="desktop_usb_port_cablestatus_tips">usb接口接线状态:</string>
+    <string name="desktop_usb_port_cablestatus_1">断开</string>
+    <string name="desktop_usb_port_cablestatus_2">已经连接</string>
+    <string name="desktop_usb_port_cablestatus_3">充电中...</string>
+    <string name="camera_setting_guide_tips">相机状态(黑色为未连接,绿色为已连接)</string>
+    <string name="camera_setting_name_0">相机1</string>
+    <string name="camera_setting_name_1">相机2</string>
+    <string name="camera_setting_name_2">相机3</string>
+    <string name="camera_setting_name_3">相机4</string>
+
+    <!--(注:当前接入系统的usb设备一共为5台,其中usb 摄像头3台)usb_port_abstract_tips-->
+    <string name="usb_port_abstract_tips_1">(注:当前接入到系统的外接usb设备一共为</string>
+    <string name="usb_port_abstract_tips_2">台,其中外接usb摄像头</string>
+    <string name="usb_port_abstract_tips_3">台)</string>
+    <string name="usb_camera_detect_loading_tips">正在检测镜头...</string>
+
+    <!--CameraSettingGuideActivity-->
+
+    <!--EmergencyActivity.java-->
+    <string name="title_emergency_on">紧急援助(已开启)</string>
+    <string name="title_emergency_off">紧急援助(已关闭)</string>
+    <string name="emergency_tips_msg">紧急危险情况时,3秒内晃动手机2次便自动向以下手机号码连续发送带有您当前位置坐标的短信!</string>
+    <string name="user_emergency_phone_number_hint">请输入紧急联系人手机号</string>
+    <string name="emergency_sms_send_test_text">短信测试</string>
+    <string name="emergency_sms_save_text">添加号码</string>
+    <string name="emergency_sms_no_phonenumber_text">您当前未设置紧急联络人</string>
+    <string name="emergency_sms_save_already_exist">该号码已经存在</string>
+    <string name="emergency_sms_save_sucess_exist">已经成功保存为您的紧急联络号码!</string>
+    <string name="emergency_sms_test_text">您当前正在进行模拟紧急联络的短信测试!</string>
+    <string name="emergency_sms_test_send_sucess">测试短信发送成功!</string>
+    <string name="emergency_sms_test_sucess">测试短信发送成功!</string>
+    <string name="emergency_sms_number_empty">号码为空!</string>
+    <string name="emergency_sms_number_empty_title_tips">紧急联系人提示!</string>
+    <string name="emergency_sms_right_btn_on_tips">开启</string>
+    <string name="emergency_sms_right_btn_off_tips">关闭</string>
+    <string name="emergency_sms_right_btn_emergency_off_title">关闭警告</string>
+    <string name="emergency_sms_right_btn_emergency_off_msg">关闭紧急联络功能会降低您的行车救援安全性,您确定关闭吗?</string>
+    <string name="emergency_sms_send_warning_msg">发送测试短信会消耗您一条短信费用,您确定继续吗?</string>
+    <string name="emergency_sms_right_btn_emergency_on_error_titel">开启错误</string>
+    <string name="emergency_sms_right_btn_emergency_on_error_msg">您尚未添加紧急联络号码,请至少添加一个紧急联络手机号码!</string>
+    <string name="emergency_sms_phone_delete_confirm_msg">您确定删除吗?</string>
+    <string name="emergency_sms_phone_delete_error_msg">紧急援助模式开启时请至少保留一个紧急联系人号码!</string>
+    <string name="emergency_sms_no_sim_error_msg">您的设备无sim卡或者sim卡异常</string>
+    <!--EmergencyActivity.java-->
+
+    <string name="menu_emergency_help_settings_send_frequence_title">紧急短信设置</string>
+    <string name="menu_emergency_stop_id_text">解除紧急危险</string>
+    <string name="menu_emergency_stop_tips_text">您确定当前已经成功脱险了吗?</string>
+    <string name="menu_emergency_stop_error_text">当前处于非紧急危机模式,无需解除!</string>
+    <string name="menu_emergency_stop_success_toast_msg">恭喜您脱险!成功解除紧急危机模式,求救短信已经停止发送!</string>
+    <string name="emergency_help_settings_send_frequence_title">紧急短信设置</string>
+    <string name="emergency_help_settings_success">紧急短信设置成功!</string>
+    <string name="sms_tv_send_frequence_text">发送频率:</string>
+    <string name="sms_tv_stop_time_text">停止发送:</string>
+
+
+    <!--RemoteControlActivity.java-->
+    <string name="remote_control_bar_title">远程控制</string>
+    <!--RemoteControlActivity.java-->
+
+    <string name="setting_video_quality_title">监控画面设置</string>
+    <string name="setting_video_quality_body_tips_text">设置录像监控画面清晰度</string>
+    <string name="setting_video_quality_too_low_tips_text">为保证画面质量,最低清晰度设置为:</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="emergency_sms_send_frequence">
+        <item>每5分钟 </item>
+        <item>每10分钟</item>
+        <item>每1小时</item>
+        <item>每2小时</item>
+        <item>每5小时</item>
+    </string-array>
+    <string-array name="emergency_sms_send_stop_condition">
+        <item>20分钟后 </item>
+        <item>2小时后</item>
+        <item>5小时后</item>
+        <item>10小时后</item>
+        <item>手工停止</item>
+    </string-array>
+</resources>

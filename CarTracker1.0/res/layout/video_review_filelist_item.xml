@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageView_thumb"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="3dp"
+                   android:src="@drawable/video_preview"
+                />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="5dp"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/tv_infor2Show"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="20dp"
+                    android:text="7点3分至7点33分"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="3dp"
+                      android:orientation="horizontal">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/play_btn"
+                           android:src="@drawable/review_video_play"
+                           android:layout_alignParentLeft="true"
+                           android:layout_marginLeft="30dp"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:id="@+id/tv_filesize"
+                          android:layout_centerHorizontal="true" android:layout_centerVertical="true"
+                          android:text="31M" android:textSize="20sp"
+                        />
+                <ImageView android:id="@+id/delete_btn"
+                           android:layout_alignParentRight="true"
+                           android:layout_marginRight="30dp"
+                           android:src="@drawable/video_record_delete"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

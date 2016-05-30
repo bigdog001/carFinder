@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+        <include layout="@layout/view_titlebar"/>
+    </LinearLayout>
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v4.view.ViewPager
+                android:id="@+id/vPager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/white"
+                android:persistentDrawingCache="animation"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#2285da"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dip"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dip">
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="fill_parent"
+                              android:orientation="vertical"
+                              android:layout_weight="1.0">
+                    <ImageView
+                            android:id="@+id/iv_bottom_line_0"
+                            android:layout_width="65dip"
+                            android:layout_height="2dip"
+                            android:layout_gravity="center_horizontal"
+                            android:src="#fff"/>
+                    <TextView
+                            android:id="@+id/tv_tab_features"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/desktop_menu_left"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="fill_parent"
+                              android:orientation="vertical"
+                              android:layout_weight="1.0">
+
+                    <ImageView
+                            android:id="@+id/iv_bottom_line_1"
+                            android:layout_width="65dip"
+                            android:layout_height="2dip"
+                            android:visibility="gone"
+                            android:layout_gravity="center_horizontal"
+                            android:src="#fff"/>
+                    <TextView
+                            android:id="@+id/tv_tab_settings"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/desktop_menu_middle"
+                            android:textColor="#ddd"
+                            android:textSize="18sp"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="fill_parent"
+                              android:orientation="vertical"
+                              android:layout_weight="1.0">
+                    <ImageView
+                            android:id="@+id/iv_bottom_line_2"
+                            android:layout_width="65dip"
+                            android:layout_height="2dip"
+                            android:visibility="gone"
+                            android:layout_gravity="center_horizontal"
+                            android:src="#fff"/>
+
+                    <TextView
+                            android:id="@+id/tv_tab_data"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="@string/desktop_menu_right"
+                            android:textColor="#ddd"
+                            android:textSize="18sp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

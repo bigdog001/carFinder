@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/menu_video_preview_save_now" android:id="@+id/menu_video_preview_save_now"
+            ></item>
+    <item android:title="@string/menu_preview_turnoff_preview" android:id="@+id/menu_preview_turnoff_preview"
+            ></item>
+    <item android:title="@string/menu_preview_setting_preview" android:id="@+id/menu_preview_setting_preview"
+            ></item>
+</menu>

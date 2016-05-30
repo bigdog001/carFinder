@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:id="@+id/send"
+            android:text="发送通知"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/cancel"
+            android:layout_margin="3dp"
+            android:text="取消通知"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/root"
+            android:layout_margin="3dp"
+            android:text="root结果"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/usb_camera_setting"
+                android:layout_margin="3dp"
+                android:text="camera设置"/>
+
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/usb_camera_justsee"
+                android:layout_margin="3dp"
+                android:text="相机镜头直览"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/performance_tuning"
+                android:layout_margin="3dp"
+                android:text="性能监控"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/usb_global_video_devices"
+                android:layout_margin="3dp"
+                android:text="/dev/video*"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/extend_usb_devices"
+                android:layout_margin="3dp"
+                android:text="外接设备"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/usb_extention_video_devices"
+                android:layout_margin="3dp"
+                android:text="外接相机"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/usb_extention_LibUsbConnector_devices"
+                android:layout_margin="3dp"
+                android:text="libusb"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/usb_single_devices"
+                android:layout_margin="3dp"
+                android:text="单镜头"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:padding="6dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:id="@+id/test_msg_tips"/>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

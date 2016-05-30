@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <include layout="@layout/titlebar_container"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+        <TextView android:id="@+id/result_show_tv"
+                  android:layout_width="wrap_content"
+                  android:visibility="gone"
+                  android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_margin="5dp">
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/review_time_picker_bg"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="@string/review_video_pick_time"
+                android:textColor="@color/white"
+                android:id="@+id/pick_time_bt"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginLeft="30dp"
+                  android:textSize="18sp"
+                  android:text="@string/review_pick_camera_bt"/>
+        <Spinner android:id="@+id/camera_id"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginTop="5dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+            android:background="@drawable/v1_item_middle_background_default">
+
+            <ListView android:id="@+id/video_record_review_file_lists"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+            </ListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

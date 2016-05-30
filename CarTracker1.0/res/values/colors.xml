@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightwhite">#ddd</color>
+    <color name="desktop_title_bg">#2285da</color>
+    <color name="device_camera_flag_bg_no_camera">#ff03060c</color>
+    <color name="review_time_picker_bg">#2285da</color>
+    <color name="desktop_title_text_color">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="desktop_name_bg">#313131</color>
+    <color name="desktop_menu_left_text_color">#ffffff</color>
+    <color name="desktop_menu_middle_text_color">#ffffff</color>
+    <color name="desktop_menu_right_text_color">#ffffff</color>
+</resources>

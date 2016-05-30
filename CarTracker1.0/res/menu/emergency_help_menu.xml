@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/menu_emergency_help_settings_send_frequence_title"
+          android:id="@+id/menu_emergency_help_settings_send_frequence_id"
+            ></item>
+    <item android:title="@string/menu_emergency_stop_id_text"
+          android:id="@+id/menu_emergency_stop_id"
+            ></item>
+</menu>

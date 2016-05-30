@@ -1,0 +1,50 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="desktop_counter">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <!--		<item name="android:textStyle">bold</item>-->
+    </style>
+    <style name="desktop_name">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/desktop_name_bg</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 设置页面 每个条目样式2 -->
+    <style name = "setting_frameLayout_2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:paddingLeft">14dp</item>
+    </style>
+
+    <!-- 设置页面 每个frameLayout中主体字体的样式 -->
+    <style name = "setting_mianText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|left</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <!-- 设置页面 每个frameLayout中右边箭头的样式-->
+    <style name = "setting_imageIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|right</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:src">@drawable/next_arrow_selector</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+    <style name = "setting_imageCb">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical|right</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+</resources>

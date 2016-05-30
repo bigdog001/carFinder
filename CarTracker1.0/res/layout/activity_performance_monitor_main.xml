@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+    <Button
+            android:layout_margin="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/monite_parameters"
+            android:text="开始监控性能参数"/>
+    <Button  android:layout_margin="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/monitor_mem"
+            android:text="监控系统内存"/>
+
+</LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CAM0"/>
+        <TextView android:layout_width="wrap_content" android:layout_margin="5dp" android:layout_height="wrap_content"
+                  android:id="@+id/tv10" android:text="0"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CAM1"/>
+        <TextView android:layout_width="wrap_content" android:layout_margin="5dp" android:layout_height="wrap_content"
+                  android:id="@+id/tv11" android:text="0"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CAM2"/>
+        <TextView android:layout_width="wrap_content" android:layout_margin="5dp" android:layout_height="wrap_content"
+                  android:id="@+id/tv12" android:text="0"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CAM3"/>
+        <TextView android:layout_width="wrap_content" android:layout_margin="5dp" android:layout_height="wrap_content"
+                  android:id="@+id/tv13" android:text="0"/>
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BUF0"/>
+        <TextView android:layout_width="wrap_content" android:layout_margin="5dp" android:layout_height="wrap_content"
+                  android:id="@+id/tv0_" android:text="0"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BUF1"/>
+        <TextView android:layout_width="wrap_content" android:layout_margin="5dp" android:layout_height="wrap_content"
+                  android:id="@+id/tv1_" android:text="0"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BUF2"/>
+        <TextView android:layout_width="wrap_content" android:layout_margin="5dp" android:layout_height="wrap_content"
+                  android:id="@+id/tv2_" android:text="0"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BUF3"/>
+        <TextView android:layout_width="wrap_content" android:layout_margin="5dp" android:layout_height="wrap_content"
+                  android:id="@+id/tv3_" android:text="0"/>
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RC0"/>
+        <TextView android:layout_width="wrap_content" android:layout_margin="5dp" android:layout_height="wrap_content"
+                  android:id="@+id/tv0" android:text="0"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RC1"/>
+        <TextView android:layout_width="wrap_content" android:layout_margin="5dp" android:layout_height="wrap_content"
+                  android:id="@+id/tv1" android:text="0"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RC2"/>
+        <TextView android:layout_width="wrap_content" android:layout_margin="5dp" android:layout_height="wrap_content"
+                  android:id="@+id/tv2" android:text="0"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RC3"/>
+        <TextView android:layout_width="wrap_content" android:layout_margin="5dp" android:layout_height="wrap_content"
+                  android:id="@+id/tv3" android:text="0"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="mem:"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/mem_info"/>
+    </LinearLayout>
+
+
+</LinearLayout>

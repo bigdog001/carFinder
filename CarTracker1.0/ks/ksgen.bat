@@ -1,0 +1,1 @@
+keytool -genkey -alias release -keyalg RSA -validity 90000 -keystore release.keystore

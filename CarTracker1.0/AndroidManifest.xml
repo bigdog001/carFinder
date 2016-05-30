@@ -1,0 +1,118 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.cartracker.mobile.android"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk
+            android:minSdkVersion="8"
+            android:targetSdkVersion="10"/>
+
+    <uses-feature android:name="android.hardware.usb.host" />
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.hardware.sensor.ACCELEROMETER"/>
+    <application
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" android:allowBackup="true"
+            android:name="com.cartracker.mobile.android.data.CarTrackerApplication">
+
+        <activity
+                android:name=".ui.MyWelcome"
+                android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+                android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".ui.Desktop"
+                android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+                android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity
+                android:name=".ui.PerformanceMonitorActivity"
+                android:label="@string/title_activity_main">
+        </activity>
+        <activity
+                android:name=".ui.VideoPreview.VideoPreviewActivity"
+                android:screenOrientation="landscape">
+        </activity>
+
+
+        <activity
+                android:name=".ui.VideoPreview.UsbCameraMain"
+                android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden">
+        </activity>
+
+        <activity
+                android:name=".ui.review.ReViewActivity"
+                android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+                >
+         </activity>
+        <activity
+                android:name=".ui.NotifucationTest"
+                android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+                >
+         </activity>
+        <activity
+                android:name=".ui.NotifucationPView"
+                android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+                >
+         </activity>
+
+        <activity
+                android:name=".ui.root.RootGuideActivity" android:screenOrientation="portrait"
+                android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+                >
+         </activity>
+        <activity
+                android:name=".ui.root.CameraSettingGuideActivity" android:screenOrientation="portrait"
+                android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+                >
+         </activity>
+        <activity
+                android:name=".ui.EmergencyActivity" android:screenOrientation="portrait"
+                android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+                >
+         </activity>
+        <activity
+                android:name=".ui.activity.RemoteControlActivity" android:screenOrientation="portrait"
+                android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+                >
+         </activity>
+        <activity
+                android:name="com.usb.camera.android.SingleUsbCameraActivity" android:screenOrientation="portrait"
+                android:configChanges="orientation|keyboard|keyboardHidden|screenSize"
+                >
+         </activity>
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:background="@color/desktop_title_bg">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+        <Button android:id="@+id/titlebar_left_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@drawable/button_back"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:text="@string/title_bar_back_btn"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true" android:layout_centerVertical="true"
+                  android:id="@+id/title_value"
+                  android:text="@string/desktop_title_default" android:textColor="@color/desktop_title_text_color"
+                  android:textSize="20sp"/>
+        <Button android:id="@+id/titlebar_right_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@drawable/topbar_right"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="3dp"
+                android:text="@string/title_bar_back_btn"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                />
+    </RelativeLayout>
+</LinearLayout>

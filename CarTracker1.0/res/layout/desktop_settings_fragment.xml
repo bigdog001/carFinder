@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fadingEdge="none"
+            android:scrollbars="vertical">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <FrameLayout style="@style/setting_frameLayout_2"
+                         android:id="@+id/setting_frameLayout_video_rewrite"
+                         android:layout_marginTop="14dp"
+                         android:background="@drawable/item_top_bg_selector"
+                    >
+
+                <TextView
+                        style="@style/setting_mianText"
+                        android:text="@string/desktop_setings_video_rewrite"/>
+                <CheckBox android:id="@+id/desktop_settings_video_rewrite_cb" style="@style/setting_imageCb"/>
+            </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/setting_frameLayout_sound_alert"
+                    style="@style/setting_frameLayout_2"
+                    android:background="@drawable/item_middle_bg_selector">
+
+                <TextView
+                        style="@style/setting_mianText"
+                        android:text="@string/desktop_setings_sound_alert"/>
+
+                <CheckBox android:id="@+id/desktop_setings_sound_alert_cb" style="@style/setting_imageCb"/>
+            </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/setting_emergency_layout"
+                    style="@style/setting_frameLayout_2"
+                    android:background="@drawable/item_middle_bg_selector">
+
+                <TextView
+                        style="@style/setting_mianText"
+                        android:text="@string/desktop_setings_emergency_help"/>
+                <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textSize="15sp"
+                        android:id="@+id/id_desktop_setings_emergency_status_tip"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:text="@string/desktop_setings_emergency_status_tip_off"/>
+                <ImageView style="@style/setting_imageIcon"/>
+            </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/setting_remote_start_layout"
+                    style="@style/setting_frameLayout_2"
+                    android:background="@drawable/item_middle_bg_selector">
+
+                <TextView
+                        style="@style/setting_mianText"
+                        android:text="@string/setting_remote_start_text"/>
+                <ImageView style="@style/setting_imageIcon"/>
+            </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/setting_video_quality_layout"
+                    style="@style/setting_frameLayout_2"
+                    android:background="@drawable/item_middle_bg_selector">
+
+                <TextView
+                        style="@style/setting_mianText"
+                        android:text="@string/setting_video_quality_text"/>
+                <ImageView style="@style/setting_imageIcon"/>
+            </FrameLayout>
+
+            <FrameLayout
+                    android:id="@+id/setting_frameLayout_blacklist"
+                    style="@style/setting_frameLayout_2"
+                    android:background="@drawable/item_bottom_bg_selector">
+
+                <TextView
+                        style="@style/setting_mianText"
+                        android:text="@string/setting_remote_about_us_text"/>
+
+                <ImageView style="@style/setting_imageIcon"/>
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

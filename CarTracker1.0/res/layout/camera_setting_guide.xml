@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/titlebar_container"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_margin="5dp"
+                  android:orientation="vertical"
+            >
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginRight="15dp"
+                      android:orientation="horizontal"
+                      android:id="@+id/usb_cable_tips_layout"
+                      android:visibility="gone"
+                      android:layout_marginTop="8dp">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/desktop_usb_port_cablestatus_tips"
+                      android:padding="2dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/usb_cable_status_msg"
+                      android:padding="2dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginRight="15dp"
+                      android:orientation="vertical"
+                      android:layout_marginTop="10dp">
+            <Button android:id="@+id/device_camera_setting_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/desktop_title_bg"
+                    android:layout_margin="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:text="@string/device_camera_setting_btn_text"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginTop="20dp"
+                      android:layout_marginRight="15dp">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+                <Button
+                        android:layout_alignParentRight="true"
+                        android:padding="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:text="@string/device_camera_cable_connect_guide_picture"
+                        android:background="@color/desktop_title_bg"
+                        />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginRight="15dp"
+                      android:layout_marginTop="40dp">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:paddingTop="10dp"
+                      android:paddingLeft="1dp"
+                      android:paddingBottom="10dp"
+                      android:layout_margin="5dp"
+                      android:textSize="13sp"
+                      android:text="@string/camera_setting_guide_tips"
+                    />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginRight="15dp"
+                      android:layout_marginTop="10dp">
+            <Button android:id="@+id/device_camera_flag_0"
+                    android:padding="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="@string/camera_setting_name_0"
+                    android:background="@color/device_camera_flag_bg_no_camera"
+                    />
+            <Button android:id="@+id/device_camera_flag_1"
+                    android:padding="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="@string/camera_setting_name_1"
+                    android:background="@color/device_camera_flag_bg_no_camera"
+                    />
+            <Button android:id="@+id/device_camera_flag_2"
+                    android:padding="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="@string/camera_setting_name_2"
+                    android:background="@color/device_camera_flag_bg_no_camera"
+                    />
+            <Button android:id="@+id/device_camera_flag_3"
+                    android:padding="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="@string/camera_setting_name_3"
+                    android:background="@color/device_camera_flag_bg_no_camera"
+                    />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginRight="15dp"
+                      android:layout_marginTop="10dp">
+            <TextView  android:id="@+id/usb_port_abstract_tips"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:padding="3dp"
+                      android:textSize="15sp"
+                      android:visibility="gone"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

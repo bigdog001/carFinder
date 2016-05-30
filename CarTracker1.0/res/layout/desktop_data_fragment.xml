@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginTop="14dp"
+                  android:layout_marginLeft="14dp"
+                  android:layout_marginRight="14dp"
+                  android:orientation="horizontal"
+                  android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="录像目录:"/>
+        <TextView android:id="@+id/id_record_path_tv"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginTop="14dp"
+                  android:layout_marginLeft="14dp"
+                  android:layout_marginRight="14dp"
+                  android:orientation="horizontal"
+                  android:layout_height="50dp">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:text="目录大小:"/>
+        <TextView android:id="@+id/id_record_dir_size_tv"
+                  android:layout_width="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:layout_height="wrap_content"
+                />
+        <Button android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/btn_data_clean_record_dir"
+                android:layout_gravity="center_vertical"
+                android:background="@color/desktop_title_bg"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:text="清理目录"
+                />
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginTop="14dp"
+                  android:layout_marginLeft="14dp"
+                  android:layout_marginRight="14dp"
+                  android:orientation="horizontal"
+                  android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="SD卡:"/>
+        <TextView android:id="@+id/id_sdcard_abs_size_tv"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="15dp"
+                  android:text=" 已使用:"/>
+        <TextView android:id="@+id/id_sdcard_already_use_size_tv"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_margin="14dp"
+                  android:layout_height="wrap_content">
+
+        <FrameLayout android:layout_width="match_parent"
+                     android:layout_height="20dp">
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                    <ImageView android:layout_width="match_parent"
+                               android:id="@+id/iv_sdcard_all_id"
+                               android:background="@color/desktop_title_bg"
+                               android:layout_height="20dp"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginRight="10dp"
+                              android:text="1024MB"
+                              android:id="@+id/id_sdcard_size_tv"
+                              android:textColor="@color/white"
+                              android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                <ImageView android:layout_width="50dp"
+                           android:id="@+id/id_sdcard_used_size_iv"
+                           android:background="#ff8e8e8e"
+                           android:layout_height="20dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginRight="14dp"
+                  android:layout_marginLeft="14dp">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_centerVertical="true"
+                  android:text="软件启动时间:"
+                  android:layout_height="wrap_content"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="10dp"
+                  android:id="@+id/app_start_time"
+                  android:text=""
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>
