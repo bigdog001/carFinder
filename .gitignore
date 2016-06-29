@@ -1,0 +1,10 @@
+/CarTracker1.0/.idea
+/CarTracker1.0/build
+/CarTracker1.0/gradle
+/CarTracker1.0/CarTracker1.0.iml
+/CarTracker1.0/*.iml
+/CarTracker1.0/gradlew
+/CarTracker1.0/gradlew.bat
+/.gradle
+/carFinder.iml
+/*.iml
