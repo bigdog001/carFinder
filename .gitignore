@@ -17,3 +17,6 @@
 /build/
 /local.properties
 /.idea
+/.idea
+/build
+/gradle
