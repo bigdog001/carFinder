@@ -8,3 +8,9 @@
 /.gradle
 /carFinder.iml
 /*.iml
+/gradle
+/gradlew
+/gradlew.bat
+/.idea
+/build
+/local.properties
